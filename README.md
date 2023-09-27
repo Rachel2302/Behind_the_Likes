@@ -15,15 +15,23 @@ Data-driven decisions and effective strategies can be developed based on these i
 
 ## Libraries Used
 googleapiclient.discovery: Google API client library to access various Google APIs, such as Google Sheets or Google Drive.
+
 pandas: A powerful data manipulation and analysis library, providing data structures like DataFrames and Series.
+
 os: A module for interacting with the operating system, like reading from or writing to the file system.
+
 numpy: A library for working with numerical data, supporting arrays, matrices, and various mathematical functions.
+
 Json: A library for working with data in JavaScript Object Notation (JSON) format.Statistics: A library for performing statistical operations and calculations in Python.
-Itertools: A library for creating and manipulating iterators and iterable objects in Python.Time: A library for working with dates, times, and time intervals in Python, including functions for measuring and benchmarking execution times.
+
+Itertools: A library for creating and manipulating iterators and iterable objects in Python.Time: A library for working with dates, times, and time intervals in Python, 
+including functions for measuring and benchmarking execution times.
 
 ## Data visualization packages:
 seaborn: A statistical data visualization library built on Matplotlib that provides a high-level interface for drawing informative and attractive graphs.
+
 matplotlib.pyplot: A plotting library for creating static, animated, and interactive visualizations in Python.
+
 matplotlib.ticker: A module for customizing tick locators and formatters in Matplotlib plots.
 
 ## NLP Packages Used
