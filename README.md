@@ -35,10 +35,18 @@ Keras: A library used for artificial neural networks and as a prerequisite for T
 
 ## User-Defined-Functions:
 Extractcomments(ec): Extracts comments from each videos.
+
 Sentiment_vader(sv): Calculates sentiment score for each comment.
+
 Visualizations(vis): Plots visualizations.
+
 Getvideoids(fid): Gets video id for each video.
+
 Getvideostatistics(vs): Gets statistics such as likes, comments for each video.
+
 Predictionmodels(pred): Predicts like or dislike ratio using vader polarity score & defines baseline vader model; we also use linear regression.
+
 Createtimeseriesdata(ctsd): Grouped data using date.
+
 Predictiontimeseriesmodel(ptsm): We use LSTM model to predict future sentiment using time series data.
+
