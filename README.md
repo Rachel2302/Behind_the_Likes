@@ -3,7 +3,7 @@
 Introduction:
 YouTube has over 2.5 billion monthly active users, making it the second largest social media/entertainment platform in the world after Facebook. Users upload over 500 hours of video content on YouTube every minute, providing a vast amount of information to analyze. Analyzing user behavior on certain YouTube channels (such as likes, comments, tags, and video titles) can provide insights into how viewers perceive the content and what changes can be made to improve it. During the COVID-19 pandemic, YouTube viewing traffic increased significantly due to restrictions forcing people to stay at home. The extended viewing time generated a large user base and revenue, motivating many people to pursue YouTube as a career option.
 
-Problem Statement
+## Problem Statement
 Sentiment analysis is crucial for understanding user engagement on YouTube
 YouTube is a significant source of user-generated content and opinions
 Analyzing the sentiment of YouTube comments can be challenging due to the large amount of data
@@ -13,7 +13,7 @@ An automated system is needed to efficiently and accurately analyze the sentimen
 Such a system would enable researchers to gather valuable insights into public opinion and user engagement on the platform
 Data-driven decisions and effective strategies can be developed based on these insights
 
-Libraries Used
+## Libraries Used
 googleapiclient.discovery: Google API client library to access various Google APIs, such as Google Sheets or Google Drive.
 pandas: A powerful data manipulation and analysis library, providing data structures like DataFrames and Series.
 os: A module for interacting with the operating system, like reading from or writing to the file system.
@@ -26,11 +26,15 @@ seaborn: A statistical data visualization library built on Matplotlib that provi
 matplotlib.pyplot: A plotting library for creating static, animated, and interactive visualizations in Python.
 matplotlib.ticker: A module for customizing tick locators and formatters in Matplotlib plots.
 
-## NLP
+## NLP Packages Used
 nltk: A library for working with human language data (text), providing tools for text processing, classification, tokenization, stemming, tagging, and parsing.
+
 nltk.corpus.stopwords: A module containing a list of common words that can be filtered out when processing natural language data.
+
 nltk.tokenize: A module for breaking up text into words, phrases, symbols, or other meaningful elements (tokens).
+
 wordcloud: A library for creating word cloud visualizations from text data.
+
 Keras: A library used for artificial neural networks and as a prerequisite for TensorFlow.
 
 ## User-Defined-Functions:
